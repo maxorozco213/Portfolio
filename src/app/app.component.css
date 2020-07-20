@@ -1,3 +1,7 @@
+body, html {
+    height: 100%;
+}
+
 .spacer {
     flex: 1;
 }
@@ -83,6 +87,20 @@
     flex-direction: row;
 }
 
-.contact-info {
+.word-cloud-parallax {
+    background-image: url("../assets/wordcloud.svg");
+    height: 750px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
 
+.parallax-window {
+    height: 10000px;
+    width: 100%;
+}
+
+.contact-info {
 }
