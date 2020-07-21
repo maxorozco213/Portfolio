@@ -6,6 +6,12 @@ body, html {
     flex: 1;
 }
 
+#content {
+    margin-bottom: 50px;
+    background-color: #FDFDFD;
+    min-height: 100%;
+}
+
 .toolbar {
     position: absolute;
     top: 0;
@@ -98,7 +104,7 @@ body, html {
 }
 
 .parallax-window {
-    height: 10000px;
+    height: 750px;
     width: 100%;
 }
 

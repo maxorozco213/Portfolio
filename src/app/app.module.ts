@@ -18,13 +18,15 @@ import {NzCardModule, NzTypographyModule} from 'ng-zorro-antd';
 
 // Components
 import { ExperienceComponent } from './experience/experience.component';
+import { InfoCardComponent } from './info-card/info-card.component';
 
 registerLocaleData(en);
 
 @NgModule({
     declarations: [
         AppComponent,
-        ExperienceComponent
+        ExperienceComponent,
+        InfoCardComponent
     ],
     imports: [
         BrowserModule,
