@@ -1,0 +1,79 @@
+.header {
+    width: 100%;
+}
+
+.header #title-wrapper {
+    width: 97%;
+    height: 58px;
+    background-color: #CBC379;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header #title-text {
+    /*color: #FDFDFD;*/
+    color: white;
+    margin-left: 1%;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.exp-content {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.exp-content #exp-card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 40em;
+    height: 50em;
+}
+
+.exp-content #exp-card {
+    width: 100%;
+    margin-bottom: 40%;
+}
+
+.exp-content #skills-header {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.exp-card-header {
+    height: 10%;
+    margin-bottom: 20px;
+}
+
+.exp-card-header #card-title {
+    font-weight: bold;
+}
+
+.exp-card-header #card-title-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: medium;
+}
+
+.exp-card-header #card-subheader {
+    font-style: italic;
+    font-size: medium;
+}
+
+.card-duty-list {
+    margin-top: 4%;
+}
+
+.card-duty-list #duty-subheader {
+    font-weight: bold;
+}
+
+.card-duty-list #duty-list-item {
+    padding-left: 0;
+    list-style-type: circle;
+}
