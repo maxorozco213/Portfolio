@@ -77,7 +77,7 @@ body, html {
     width: 15%;
     margin-bottom: 1%;
     border-radius: 50%;
-    border: 1px solid #777583;
+    /*border: 1px solid #777583;*/
 }
 
 .profile-image-wrapper {
@@ -88,9 +88,24 @@ body, html {
     margin-top: 150px;
 }
 
-.social-links {
+.socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%
+}
+
+.socials #social-links {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    width: 100%
+}
+
+.socials #contact-info {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .word-cloud-parallax {
@@ -101,6 +116,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    margin-top: 5%;
 }
 
 .parallax-window {
@@ -108,5 +124,3 @@ body, html {
     width: 100%;
 }
 
-.contact-info {
-}

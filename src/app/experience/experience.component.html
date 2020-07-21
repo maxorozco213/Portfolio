@@ -4,6 +4,30 @@
     </div>
 </div>
 
-<div class="content">
-    <app-info-card></app-info-card>
+<div class="exp-content">
+<!--    Iterate the array with key 'professional'-->
+    <div nz-row id="exp-card-wrapper" *ngFor="let exp of expData">
+        <nz-card nz-col nzHoverable id="exp-card">
+<!--            <nz-card-meta [nzTitle]="exp.company" [nzDescription]="exp.role"></nz-card-meta>-->
+            <div class="exp-card-header">
+                <div id="card-title-wrapper">
+                    <h4 nz-typography id="card-title">{{exp.company}}</h4>
+                    <span>{{exp.startDate}} - {{exp.endDate}}</span>
+                </div>
+                <span id="card-subheader">{{exp.role}}</span>
+            </div>
+            <nz-divider></nz-divider>
+<!--            Iterate the nested array-->
+            <span id="skills-header">Acquired skills:</span><br/>
+            <span *ngFor="let skill of exp.acquiredSkills">
+                {{ skill }}
+            </span>
+            <div class="card-duty-list">
+                <span id="duty-subheader">Duties:</span>
+                <ul *ngFor="let duty of exp.duties">
+                    <li id="duty-list-item">{{duty}}</li>
+                </ul>
+            </div>
+        </nz-card>
+    </div>
 </div>

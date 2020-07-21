@@ -1,14 +1,15 @@
 {
-    "professional": {
-        "laCity": {
+    "professional": [
+        {
+            "company": "City of Los Angeles",
             "role": "Desktop Support",
             "startDate": "October 2018",
-            "endDate": null,
+            "endDate": "Current",
             "isCurrent": true,
             "acquiredSkills": [
-                "Communication",
-                "Customer Service",
-                "PowerShell",
+                "Communication,",
+                "Customer Service,",
+                "PowerShell,",
                 "Microsoft Excel"
             ],
             "duties": [
@@ -18,28 +19,29 @@
                 "Provide prompt and efficient service to resolve support tickets for 1000 users"
             ]
         },
-        "boeing": {
-            "role": "",
+        {
+            "company": "Boeing",
+            "role": "Intern",
             "startDate": "August 2019",
             "endDate": "May 2020",
             "isCurrent": false,
             "acquiredSkills": [
-                "AdobeXD",
-                "ReactJS",
-                "Redux",
-                "HTML",
-                "CSS",
-                "Python",
-                "Django",
-                "Web Design and Development",
-                "User Interface",
-                "User Experience",
-                "Docker",
-                "Containerization",
-                "Source Control",
-                "GitHub",
-                "JavaScript",
-                "Agile Development",
+                "AdobeXD,",
+                "ReactJS,",
+                "Redux,",
+                "HTML,",
+                "CSS,",
+                "Python,",
+                "Django,",
+                "Web Design and Development,",
+                "User Interface,",
+                "User Experience,",
+                "Docker,",
+                "Containerization,",
+                "Source Control,",
+                "GitHub,",
+                "JavaScript,",
+                "Agile Development,",
                 "AWS EC2"
             ],
             "duties": [
@@ -49,31 +51,32 @@
                 "Deployed the application on AWS EC2 servers"
             ]
         }
-    },
-    "extra": {
-        "buelnaNewsBlog": {
+    ],
+    "extra": [
+        {
+            "projectName": "Buelna News Blog",
             "role": "Project Lead",
             "startDate": "February 2020",
             "endDate": null,
             "isCurrent": true,
             "acquiredSkills": [
-                "Project Management",
-                "AdobeXD",
-                "ReactJS",
-                "Redux",
-                "HTML",
-                "CSS",
-                "Python",
-                "Django",
-                "Web Design and Development",
-                "User Interface",
-                "User Experience",
-                "Docker",
-                "Containerization",
-                "Source Control",
-                "GitHub",
-                "JavaScript",
-                "Agile Development",
+                "Project Management,",
+                "AdobeXD,",
+                "ReactJS,",
+                "Redux,",
+                "HTML,",
+                "CSS,",
+                "Python,",
+                "Django,",
+                "Web Design and Development,",
+                "User Interface,",
+                "User Experience,",
+                "Docker,",
+                "Containerization,",
+                "Source Control,",
+                "GitHub,",
+                "JavaScript,",
+                "Agile Development,",
                 "AWS EC2"
             ],
             "duties": [
@@ -84,7 +87,8 @@
                 "Deployed the application on AWS EC2 servers with HTTPS certificates"
             ]
         },
-        "apoMobileApp": {
+        {
+            "projectName": "APO Online Mobile Application",
             "role": "Project Member",
             "startDate": "May 2018",
             "endDate": "December 2018",
@@ -106,8 +110,9 @@
                 "Exhaustively tested and debugged the exiting code base"
             ]
         },
-        "apoMembership": {
-            "role": "Project Lead",
+        {
+            "projectName": "SFSU/CSULA Alpha Phi Omega",
+            "role": "Active Member",
             "startDate": "February 2014",
             "endDate": "May 2020",
             "isCurrent": false,
@@ -124,5 +129,5 @@
                 "Exceeded requirement of 25 community service hours per semester"
             ]
         }
-    }
+    ]
 }
