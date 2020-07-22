@@ -3,10 +3,10 @@
 }
 
 .header #title-wrapper {
-    width: 97%;
+    width: 96%;
     height: 58px;
     background-color: #CBC379;
-    margin-bottom: 5%;
+    margin-bottom: 4%;
     margin-top: 3%;
     line-height: 100%;
     display: flex;
@@ -23,23 +23,22 @@
 
 .exp-content {
     display: flex;
-    justify-content: space-evenly;
-    width: 100%;
+    justify-content: center;
+    min-height: 75em;
 }
 
-.exp-content #exp-card-wrapper {
+.exp-card-wrapper {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    width: 40em;
-    height: 50em;
+    justify-content: center;
 }
 
-.exp-content #exp-card {
-    width: 100%;
-    margin-bottom: 40%;
+.exp-card {
+    width: 32em;
+    height: 36em;
 }
 
-.exp-content #skills-header {
+.exp-card #skills-header {
     font-weight: bold;
     margin-top: 20px;
 }
