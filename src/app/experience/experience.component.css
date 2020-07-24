@@ -24,7 +24,7 @@
 .exp-content {
     display: flex;
     justify-content: center;
-    min-height: 75em;
+    min-height: 60em;
 }
 
 .exp-card-wrapper {
