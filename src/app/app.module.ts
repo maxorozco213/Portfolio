@@ -20,6 +20,7 @@ import {NzCardModule, NzDividerModule, NzGridModule, NzTypographyModule} from 'n
 // Components
 import { ExperienceComponent } from './experience/experience.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { ExtracurricularsComponent } from './extracurriculars/extracurriculars.component';
 
 registerLocaleData(en);
 
@@ -27,7 +28,8 @@ registerLocaleData(en);
     declarations: [
         AppComponent,
         ExperienceComponent,
-        ProjectsComponent
+        ProjectsComponent,
+        ExtracurricularsComponent
     ],
     imports: [
         BrowserModule,

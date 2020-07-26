@@ -20,3 +20,25 @@
     font-style: italic;
     margin-top: 10px;
 }
+
+.exp-card-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.language-subheader {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.exp-card #card-stats-wrapper {
+    margin-top: 9%;
+}
+
+.stats-item {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}

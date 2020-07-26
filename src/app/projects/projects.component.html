@@ -1,31 +1,47 @@
 <div class="header">
     <div id="title-wrapper">
-        <h2 nz-typography id="title-text">GitHub Repositories</h2>
+        <h2 nz-typography id="title-text">Projects</h2>
     </div>
 </div>
 
 <div class="exp-content">
     <!--    Iterate the array with key 'professional'-->
-    <div nz-row [nzGutter]="[10, 16]" class="exp-card-wrapper">
-        <div nz-col [nzSpan]="8" class="exp-card-wrapper" *ngFor="let proj of repoList">
-            <nz-card nzHoverable class="exp-card">
-                <!--            <nz-card-meta [nzTitle]="exp.company" [nzDescription]="exp.role"></nz-card-meta>-->
+    <div nz-row [nzGutter]="[20, 30]" class="exp-card-wrapper">
+        <div nz-col [nzSpan]="8" class="exp-card-wrapper" *ngFor="let repo of repoList">
+            <nz-card nzHoverable class="exp-card" (click)="sendToLink(repo.html_url)">
+<!--                Card header-->
                 <div class="exp-card-header">
                     <div id="card-title-wrapper">
-                        <h4 nz-typography id="card-title">{{ proj.name }}</h4>
-                        <span></span>
+                        <h4 nz-typography id="card-title">{{ repo.name }}</h4>
                     </div>
-                    <span id="card-subheader"></span>
+                    <span>Click to see source code >></span>
                 </div>
                 <nz-divider></nz-divider>
 <!--                Card body-->
-                <span id="skills-header">Description</span><br/>
+                <span id="skills-header">Description:</span><br/>
                 <span>
-                    {{ proj.description }}
+                    {{ repo.description }}
                 </span>
                 <div class="card-duty-list">
-                    <span id="duty-subheader">Duties:</span>
-
+                    <span class="language-subheader">Top language: {{ repo.language }}</span>
+                    <div id="card-stats-wrapper">
+                        <div class="stats-item">
+                            <span>My contributions </span>
+<!--                            <span>{{ getRepoStats(repo.name) }}</span>-->
+                        </div>
+                        <div class="stats-item">
+                            <span>Collaborators</span>
+                            <span></span>
+                        </div>
+                        <div class="stats-item">
+                            <span>Created</span>
+                            <span>{{ repo.created_at | date:'MM/dd/yyyy' }}</span>
+                        </div>
+                        <div class="stats-item">
+                            <span>Updated</span>
+                            <span>{{ repo.updated_at | date:'MM/dd/yyyy' }}</span>
+                        </div>
+                    </div>
                 </div>
             </nz-card>
         </div>

@@ -6,4 +6,76 @@ body, html {
     background-color: #fdfdfd;
 }
 
+.header {
+    width: 100%;
+}
 
+.header #title-wrapper {
+    width: 96%;
+    height: 58px;
+    background-color: #CBC379;
+    margin-bottom: 4%;
+    margin-top: 3%;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header #title-text {
+    /*color: #FDFDFD;*/
+    color: white;
+    margin-left: 1%;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.exp-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 60em;
+}
+
+.exp-card {
+    width: 32em;
+    height: 36em;
+}
+
+.exp-card #skills-header {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.exp-card-header {
+    height: 10%;
+    margin-bottom: 20px;
+}
+
+.exp-card-header #card-title {
+    font-weight: bold;
+}
+
+.exp-card-header #card-title-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: medium;
+}
+
+.exp-card-header #card-subheader {
+    font-style: italic;
+    font-size: medium;
+}
+
+.card-duty-list {
+    margin-top: 4%;
+}
+
+.card-duty-list #duty-subheader {
+    font-weight: bold;
+}
+
+.card-duty-list #duty-list-item {
+    padding-left: 0;
+    list-style-type: circle;
+}
