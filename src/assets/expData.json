@@ -55,7 +55,7 @@
     "extra": [
         {
             "projectName": "Buelna News Blog",
-            "role": "Project Lead",
+            "role": "Project Lead/Front-End Developer",
             "startDate": "February 2020",
             "endDate": "Current",
             "isCurrent": true,
@@ -89,7 +89,7 @@
         },
         {
             "projectName": "APO Online Mobile Application",
-            "role": "Project Member",
+            "role": "Front-End Developer",
             "startDate": "May 2018",
             "endDate": "December 2018",
             "isCurrent": false,
@@ -119,7 +119,9 @@
             "acquiredSkills": [
                 "Communication",
                 "Customer Service",
-                "Logistics Management"
+                "Logistics",
+                "Event Planning",
+                "Leadership"
             ],
             "duties": [
                 "Participated in a large variety of volunteer/community service projects",
@@ -128,6 +130,10 @@
                 "Managed, updated, and upheld chapter bylaws",
                 "Exceeded requirement of 25 community service hours per semester"
             ]
+        },
+        {
+            "projectName": "MSCI Scholarship",
+            "role": "Award Recipient"
         }
     ]
 }

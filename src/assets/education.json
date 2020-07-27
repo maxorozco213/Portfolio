@@ -1,0 +1,47 @@
+{
+    "csula": {
+        "schoolName": "California State University, Los Angeles",
+        "attendStart": "August 2017",
+        "attendEnd": "May 2020",
+        "major": "Computer Science",
+        "extracurriculars": {
+            "apo": {
+                "groupName": "Alpha Phi Omega, Lambda Mu Chapter",
+                "participationStart": "August 2017",
+                "participationEnd": "May 2020",
+                "roles": [
+                    "Former elected Secretary",
+                    "Active member"
+                ]
+            },
+            "acm": {
+                "groupName": "Association of Computing and Machinery",
+                "participationStart": "August 2019",
+                "participationEnd": "December 2019"
+            }
+        }
+    },
+    "sfsu": {
+        "schoolName": "San Francisco State University",
+        "attendStart": "August 2014",
+        "attendEnd": "May 2016",
+        "major": "Computer Science",
+        "extracurriculars": {
+            "apo": {
+                "groupName": "Alpha Phi Omega, Mu Zeta Chapter",
+                "participationStart": "August 2017",
+                "participationEnd": "May 2020",
+                "roles": [
+                    "Former elected Sargent-At-Arms",
+                    "Active member"
+                ]
+            }
+        }
+    },
+    "gcc": {
+        "schoolName": "Glendale Community College",
+        "attendStart": "August 2016",
+        "attendEnd": "May 2017",
+        "major": "Computer Science"
+    }
+}
