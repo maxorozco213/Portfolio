@@ -1,31 +1,28 @@
 <div class="header">
     <div id="title-wrapper">
-        <h2 nz-typography id="title-text">Work Experience</h2>
+        <h2 nz-typography id="title-text">Extracurriculars and Volunteering</h2>
     </div>
 </div>
 
 <div class="exp-content">
-<!--    Iterate the array with key 'professional'-->
+    <!--    Iterate the array with key 'professional'-->
     <div nz-row [nzGutter]="[10, 16]" class="exp-card-wrapper">
         <div nz-col [nzSpan]="8" class="exp-card-wrapper" *ngFor="let exp of expData">
             <nz-card nzHoverable class="exp-card">
-    <!--            <nz-card-meta [nzTitle]="exp.company" [nzDescription]="exp.role"></nz-card-meta>-->
+                <!--            <nz-card-meta [nzTitle]="exp.company" [nzDescription]="exp.role"></nz-card-meta>-->
                 <div class="exp-card-header">
-                    <div>
-                        <h4 nz-typography id="card-title">{{ exp.company }}</h4>
-                        <img src="" />
-                    </div>
+                        <h4 nz-typography id="card-title">{{ exp.projectName }}</h4>
                     <div id="card-title-wrapper">
                         <span id="card-subheader">{{ exp.role }}</span>
                         <span>{{ exp.startDate }} - {{ exp.endDate }}</span>
                     </div>
                 </div>
                 <nz-divider></nz-divider>
-    <!--            Iterate the nested array-->
+                <!--            Iterate the nested array-->
                 <span id="skills-header">Acquired skills:</span><br/>
-                <span *ngFor="let skill of exp.acquiredSkills">
+                <nz-badge *ngFor="let skill of exp.acquiredSkills">
                     <span nz-typography><code>{{ skill }}</code></span>
-                </span>
+                </nz-badge>
                 <div class="card-duty-list">
                     <span id="duty-subheader">Duties:</span>
                     <ul *ngFor="let duty of exp.duties">

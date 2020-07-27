@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+// Modules
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
@@ -14,11 +15,12 @@ import en from '@angular/common/locales/en';
 // NG-Zorro Styles
 import {NzButtonModule} from 'ng-zorro-antd/button';
 import {NzIconModule} from 'ng-zorro-antd/icon';
-import {NzCardModule, NzDividerModule, NzGridModule, NzTypographyModule} from 'ng-zorro-antd';
+import {NzBadgeModule, NzCardModule, NzDividerModule, NzGridModule, NzTypographyModule} from 'ng-zorro-antd';
 
 // Components
 import { ExperienceComponent } from './experience/experience.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { ExtracurricularsComponent } from './extracurriculars/extracurriculars.component';
 
 registerLocaleData(en);
 
@@ -26,7 +28,8 @@ registerLocaleData(en);
     declarations: [
         AppComponent,
         ExperienceComponent,
-        ProjectsComponent
+        ProjectsComponent,
+        ExtracurricularsComponent
     ],
     imports: [
         BrowserModule,
@@ -39,7 +42,8 @@ registerLocaleData(en);
         NzTypographyModule,
         NzCardModule,
         NzGridModule,
-        NzDividerModule
+        NzDividerModule,
+        NzBadgeModule
     ],
     providers: [{ provide: NZ_I18N, useValue: en_US }],
     bootstrap: [AppComponent]
