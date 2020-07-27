@@ -15,7 +15,7 @@ import en from '@angular/common/locales/en';
 // NG-Zorro Styles
 import {NzButtonModule} from 'ng-zorro-antd/button';
 import {NzIconModule} from 'ng-zorro-antd/icon';
-import {NzCardModule, NzDividerModule, NzGridModule, NzTypographyModule} from 'ng-zorro-antd';
+import {NzBadgeModule, NzCardModule, NzDividerModule, NzGridModule, NzTypographyModule} from 'ng-zorro-antd';
 
 // Components
 import { ExperienceComponent } from './experience/experience.component';
@@ -42,7 +42,8 @@ registerLocaleData(en);
         NzTypographyModule,
         NzCardModule,
         NzGridModule,
-        NzDividerModule
+        NzDividerModule,
+        NzBadgeModule
     ],
     providers: [{ provide: NZ_I18N, useValue: en_US }],
     bootstrap: [AppComponent]

@@ -22,7 +22,7 @@
 }
 
 .exp-card-wrapper {
-    width: 100%;
+    max-width: 85%;
     display: flex;
     justify-content: center;
 }
