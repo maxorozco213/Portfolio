@@ -2,25 +2,6 @@
     width: 100%;
 }
 
-.header #title-wrapper {
-    width: 96%;
-    height: 58px;
-    background-color: #cbc379;
-    margin-bottom: 5%;
-    margin-top: 3%;
-    line-height: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.header #title-text {
-    /*color: #FDFDFD;*/
-    color: white;
-    margin-left: 1%;
-    font-style: italic;
-    margin-top: 10px;
-}
-
 .exp-card-wrapper {
     max-width: 85%;
     display: flex;

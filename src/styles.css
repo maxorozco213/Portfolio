@@ -43,6 +43,7 @@ body, html {
 
 .exp-card #skills-header {
     font-weight: bold;
+    font-size: medium;
     margin-top: 20px;
 }
 
@@ -60,20 +61,6 @@ body, html {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-}
-
-.exp-card-header #boeing-logo {
-    width: 40%;
-    position: absolute;
-    right: 0;
-    margin-right: 10px;
-}
-
-.exp-card-header #lacity-logo {
-    width: 30%;
-    position: relative;
-    right: 0;
-    margin-left: 10%;
 }
 
 .exp-card-header #card-subtitle-wrapper {

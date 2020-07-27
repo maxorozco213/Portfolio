@@ -21,6 +21,7 @@ import {NzBackTopModule, NzBadgeModule, NzCardModule, NzDividerModule, NzGridMod
 import { ExperienceComponent } from './experience/experience.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ExtracurricularsComponent } from './extracurriculars/extracurriculars.component';
+import { EducationComponent } from './education/education.component';
 
 registerLocaleData(en);
 
@@ -29,7 +30,8 @@ registerLocaleData(en);
         AppComponent,
         ExperienceComponent,
         ProjectsComponent,
-        ExtracurricularsComponent
+        ExtracurricularsComponent,
+        EducationComponent
     ],
     imports: [
         BrowserModule,
