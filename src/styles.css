@@ -39,6 +39,7 @@ body, html {
 .exp-card {
     width: 35em;
     height: 40em;
+    border-radius: 10px;
 }
 
 .exp-card #skills-header {

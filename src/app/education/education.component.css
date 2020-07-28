@@ -1,31 +1,23 @@
-.exp-card-header #csula-logo {
+.school-logo {
     width: 36%;
     margin-bottom: 5px;
 }
 
-.exp-card-header #sfsu-logo {
-    height: 90%;
-    margin-bottom: 5px;
-}
-
-.exp-card-header #gcc-logo {
-    width: 30%;
-    margin-bottom: 5px;
-}
-
 .exp-card-wrapper {
-    width: 80%;
+    width: 85%;
     display: flex;
     justify-content: center;
 }
 
 .exp-card {
     height: 30em;
+    border-radius: 10px;
 }
 
 .edu-card {
-    width: 91%;
+    width: 90%;
     margin-top: -5%;
+    border-radius: 10px;
 }
 
 .edu-card #skill-wrapper {

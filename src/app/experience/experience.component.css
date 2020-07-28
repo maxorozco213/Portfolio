@@ -4,6 +4,10 @@
     justify-content: center;
 }
 
+.exp-card {
+    border-radius: 10px;
+}
+
 .exp-card-header #boeing-logo {
     width: 40%;
     position: absolute;

@@ -1,5 +1,11 @@
 .exp-card-wrapper {
-    width: 85%;
+    width: 95%;
     display: flex;
     justify-content: center;
+}
+
+.exp-card {
+    border-radius: 10px;
+    width: 35em;
+    height: 40em;
 }
