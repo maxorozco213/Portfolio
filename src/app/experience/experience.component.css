@@ -1,11 +1,11 @@
-.exp-card-wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
 .exp-card {
     border-radius: 10px;
+}
+
+.exp-card-wrapper {
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
 }
 
 .exp-card-header #boeing-logo {
@@ -16,7 +16,7 @@
 }
 
 .exp-card-header #lacity-logo {
-    width: 30%;
+    width: 25%;
     position: relative;
     right: 0;
     margin-left: 10%;

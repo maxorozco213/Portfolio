@@ -1,17 +1,16 @@
-.school-logo {
-    width: 36%;
-    margin-bottom: 5px;
+.exp-card {
+    border-radius: 10px;
 }
 
 .exp-card-wrapper {
-    width: 85%;
+    max-width: 90%;
     display: flex;
     justify-content: center;
 }
 
-.exp-card {
-    height: 30em;
-    border-radius: 10px;
+.school-logo {
+    width: 36%;
+    margin-bottom: 5px;
 }
 
 .edu-card {
