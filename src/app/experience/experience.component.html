@@ -6,7 +6,7 @@
 
 <div class="exp-content">
 <!--    Iterate the array with key 'professional'-->
-    <div nz-row [nzGutter]="[10, 16]" class="exp-card-wrapper">
+    <div nz-row [nzGutter]="[40, 60]" class="exp-card-wrapper">
         <div nz-col [nzSpan]="8" class="exp-card-wrapper" *ngFor="let exp of expData">
             <nz-card nzHoverable class="exp-card">
     <!--            <nz-card-meta [nzTitle]="exp.company" [nzDescription]="exp.role"></nz-card-meta>-->
@@ -14,9 +14,11 @@
                     <div id="card-title-wrapper">
                         <h4 nz-typography id="card-title">{{ exp.company }}</h4>
                         <div *ngIf="exp.company == 'Boeing'">
+<!--                            Path referenced like so for GitHub pages compatibility-->
                             <img src="./assets/images/boeing-logo.png" alt="Boeing" id="boeing-logo" />
                         </div>
                         <div *ngIf="exp.company == 'City of Los Angeles'" style="width:50%;display: flex;justify-content: right">
+<!--                            Path referenced like so for GitHub pages compatibility-->
                             <img src="./assets/images/lacity-logo.png" alt="LA City" id="lacity-logo" />
                         </div>
                     </div>
