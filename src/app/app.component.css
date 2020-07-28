@@ -124,3 +124,10 @@ body, html {
     width: 100%;
 }
 
+.about-me {
+    width: 60%;
+    margin-top: 3%;
+    border: none;
+    background-color: rgba(119,117,131,0.05);
+    border-radius: 15px
+}

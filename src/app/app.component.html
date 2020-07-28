@@ -1,6 +1,6 @@
 <div class="toolbar" role="banner">
     <div class="toolbar-btn-wrapper">
-        <button nz-button  class="toolbar-btn">About</button>
+        <button nz-button  class="toolbar-btn">Education</button>
         <button nz-button  class="toolbar-btn">Experience</button>
         <button nz-button  class="toolbar-btn">Projects</button>
         <button nz-button  class="toolbar-btn">Extracurriculars</button>
@@ -49,7 +49,7 @@
                 </h4>
             </div>
         </div>
-        <nz-card style="width:60%; margin-top:3%; border:none; background-color:rgba(119,117,131,0.05)">
+        <nz-card class="about-me">
             <h3 nz-typography>
                 About me
             </h3>
@@ -63,13 +63,13 @@
             </p>
         </nz-card>
         <div class="word-cloud-parallax">
-            <div class="parallax-window">
-
-            </div>
+            <div class="parallax-window"></div>
+            <app-education></app-education>
             <app-experience></app-experience>
             <app-projects></app-projects>
             <app-extracurriculars></app-extracurriculars>
         </div>
+        <nz-back-top nzTarget="content"></nz-back-top>
     </div>
 </div>
 

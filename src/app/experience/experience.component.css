@@ -3,3 +3,21 @@
     display: flex;
     justify-content: center;
 }
+
+.exp-card {
+    border-radius: 10px;
+}
+
+.exp-card-header #boeing-logo {
+    width: 40%;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}
+
+.exp-card-header #lacity-logo {
+    width: 30%;
+    position: relative;
+    right: 0;
+    margin-left: 10%;
+}

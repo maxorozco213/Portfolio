@@ -37,12 +37,14 @@ body, html {
 }
 
 .exp-card {
-    width: 32em;
-    height: 36em;
+    width: 35em;
+    height: 40em;
+    border-radius: 10px;
 }
 
 .exp-card #skills-header {
     font-weight: bold;
+    font-size: medium;
     margin-top: 20px;
 }
 
@@ -59,7 +61,19 @@ body, html {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
+}
+
+.exp-card-header #card-subtitle-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     font-size: medium;
+}
+
+.exp-card-header #card-subheader-wrapper {
+    display: flex;
+    flex-direction: row;
 }
 
 .exp-card-header #card-subheader {

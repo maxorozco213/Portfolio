@@ -1,0 +1,28 @@
+.school-logo {
+    width: 36%;
+    margin-bottom: 5px;
+}
+
+.exp-card-wrapper {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+}
+
+.exp-card {
+    height: 30em;
+    border-radius: 10px;
+}
+
+.edu-card {
+    width: 90%;
+    margin-top: -5%;
+    border-radius: 10px;
+}
+
+.edu-card #skill-wrapper {
+}
+
+.edu-card #skill-chip {
+
+}

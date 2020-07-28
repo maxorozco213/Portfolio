@@ -14,8 +14,7 @@ export class ExtracurricularsComponent implements OnInit {
     ngOnInit(): void {
         console.log(this.expData);
         this.expData.forEach(item => {
-        console.log(item.acquiredSkills);
+            console.log(item.acquiredSkills);
         });
     }
-
 }

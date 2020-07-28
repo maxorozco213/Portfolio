@@ -15,12 +15,13 @@ import en from '@angular/common/locales/en';
 // NG-Zorro Styles
 import {NzButtonModule} from 'ng-zorro-antd/button';
 import {NzIconModule} from 'ng-zorro-antd/icon';
-import {NzBadgeModule, NzCardModule, NzDividerModule, NzGridModule, NzTypographyModule} from 'ng-zorro-antd';
+import {NzBackTopModule, NzBadgeModule, NzCardModule, NzDividerModule, NzGridModule, NzTypographyModule} from 'ng-zorro-antd';
 
 // Components
 import { ExperienceComponent } from './experience/experience.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ExtracurricularsComponent } from './extracurriculars/extracurriculars.component';
+import { EducationComponent } from './education/education.component';
 
 registerLocaleData(en);
 
@@ -29,7 +30,8 @@ registerLocaleData(en);
         AppComponent,
         ExperienceComponent,
         ProjectsComponent,
-        ExtracurricularsComponent
+        ExtracurricularsComponent,
+        EducationComponent
     ],
     imports: [
         BrowserModule,
@@ -43,7 +45,8 @@ registerLocaleData(en);
         NzCardModule,
         NzGridModule,
         NzDividerModule,
-        NzBadgeModule
+        NzBadgeModule,
+        NzBackTopModule
     ],
     providers: [{ provide: NZ_I18N, useValue: en_US }],
     bootstrap: [AppComponent]
