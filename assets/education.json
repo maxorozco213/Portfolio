@@ -1,0 +1,89 @@
+{
+    "schools": [
+        {
+            "id": 2,
+            "schoolName": "San Francisco State University",
+            "link": "https://www.sfsu.edu/",
+            "attendStart": "August 2014",
+            "attendEnd": "May 2016",
+            "major": "B.S. in Computer Science",
+            "extracurriculars": [
+                {
+                    "groupName": "Alpha Phi Omega, Mu Zeta Chapter",
+                    "participationStart": "August 2017",
+                    "participationEnd": "May 2020",
+                    "roles": [
+                        "Former elected Sargent-At-Arms",
+                        "Active member"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "schoolName": "Glendale Community College",
+            "link": "https://www.glendale.edu/",
+            "attendStart": "August 2016",
+            "attendEnd": "May 2017",
+            "major": "B.S. in Computer Science"
+        },
+        {
+            "id": 1,
+            "schoolName": "California State University, Los Angeles",
+            "link": "http://www.calstatela.edu/",
+            "attendStart": "August 2017",
+            "attendEnd": "May 2020",
+            "major": "B.S. in Computer Science",
+            "extracurriculars": [
+                {
+                    "groupName": "Alpha Phi Omega, Lambda Mu Chapter",
+                    "participationStart": "August 2017",
+                    "participationEnd": "May 2020",
+                    "roles": [
+                        "Former elected Secretary",
+                        "Active member"
+                    ]
+                },
+                {
+                    "groupName": "Association of Computing and Machinery (ACM)",
+                    "participationStart": "August 2019",
+                    "participationEnd": "December 2019"
+                }
+            ]
+        }
+    ],
+    "skills": [
+        "Collaboration",
+        "Customer Service",
+        "Web development",
+        "User interface",
+        "User experience",
+        "Source Control",
+        "Git",
+        "GitHub",
+        "Agile Development",
+        "SCRUM",
+        "JavaScript",
+        "ReactJS",
+        "Redux",
+        "Python",
+        "Django",
+        "HTML",
+        "CSS",
+        "Kotlin",
+        "Java",
+        "Containerization",
+        "Docker",
+        "MySQL",
+        "AWS EC2",
+        "PowerShell",
+        "Angular",
+        "React Native",
+        "Vue",
+        "AdobeXD",
+        "Excel",
+        "API",
+        "JSON",
+        "TypeScript"
+    ]
+}
