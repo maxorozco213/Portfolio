@@ -1,10 +1,16 @@
-# MaxPortfolio
+# Maximlian's Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.<br/><br/>
+
+This website is live and available to visit at the following link:<br/> https://maxorozco213.github.io/Portfolio/
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` or `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.<br/><br/>
+
+Run `npm local-start` for a dev server that is accessible on your local network. Navigate to `http://localhost:4200/` on the host machine or the host machine's IP address at port `:4200` on a separate machine. The app will still automatically reload if changes in the source files are detected.<br/><br/>
+
+Run `npm deploy` to deploy the current branch to GitHub pages.
 
 ## Code scaffolding
 
