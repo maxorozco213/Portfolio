@@ -109,7 +109,7 @@ body, html {
 }
 
 .word-cloud-parallax {
-    background-image: url("../assets/wordcloud-variant-5.png");
+    background-image: url("../assets/images/wordcloud-variant-5.png");
     height: 750px;
     background-attachment: fixed;
     background-position: center;
