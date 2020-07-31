@@ -1,4 +1,6 @@
 .exp-card {
+    height: fit-content;
+    min-height: 20em;
     border-radius: 10px;
 }
 

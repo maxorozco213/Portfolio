@@ -2,9 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 
 @Component({
-  selector: 'app-projects',
-  templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.css']
+    selector: 'app-projects',
+    templateUrl: './projects.component.html',
+    styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
     repoURL: any = 'https://api.github.com/users/maxorozco213/repos';
@@ -15,7 +15,6 @@ export class ProjectsComponent implements OnInit {
 
     ngOnInit(): void {
         this.fetchData().then(() => {
-            console.log(this.repoList);
         }).catch(error => {
             console.log('API error: ', error);
         });
@@ -28,21 +27,5 @@ export class ProjectsComponent implements OnInit {
     sendToLink(link): void {
         const win = window.open(link);
         win.focus();
-    }
-
-    private async getRepoStats(repoName): Promise<any> {
-        const response: any = await this.httpClient.get(`${this.baseURL}${repoName}/contributors?anon=1`).toPromise();
-
-        let contributions;
-        const contributors = response.length;
-
-        for (const user of response) {
-            if (user.login === 'maxorozco213') {
-                contributions = user.contributions;
-                return {collaborators: contributors, commits: contributions};
-            }
-        }
-
-        console.log(response);
     }
 }
