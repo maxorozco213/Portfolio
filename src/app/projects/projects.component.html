@@ -7,7 +7,7 @@
 <div class="exp-content">
     <!--    Iterate the array with key 'professional'-->
     <div nz-row [nzGutter]="[20, 30]" class="exp-card-wrapper">
-        <div nz-col [nzSpan]="7" class="exp-card-wrapper" *ngFor="let repo of repoList">
+        <div nz-col [nzSpan]="5" class="exp-card-wrapper" *ngFor="let repo of repoList">
             <nz-card nzHoverable class="exp-card" (click)="sendToLink(repo.html_url)">
 <!--                Card header-->
                 <div class="exp-card-header">
@@ -26,12 +26,12 @@
                     <span class="language-subheader">Top language: {{ repo.language }}</span>
                     <div id="card-stats-wrapper">
                         <div class="stats-item">
-                            <span>My contributions </span>
-<!--                            <span>{{ getRepoStats(repo.name) }}</span>-->
+                            <span>My contributions</span>
+                            <span>{{ repo.name | getRepoStats:'commits' | async }}</span>
                         </div>
                         <div class="stats-item">
                             <span>Collaborators</span>
-                            <span></span>
+                            <span>{{ repo.name | getRepoStats:'contributors' | async }}</span>
                         </div>
                         <div class="stats-item">
                             <span>Created</span>

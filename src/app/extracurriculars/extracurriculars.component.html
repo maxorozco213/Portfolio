@@ -1,12 +1,12 @@
 <div class="header" id="extra-header">
     <div id="title-wrapper">
-        <h2 nz-typography id="title-text">Extracurriculars and Volunteering</h2>
+        <h2 nz-typography id="title-text">Extracurriculars</h2>
     </div>
 </div>
 
 <div class="exp-content">
     <!--    Iterate the array with key 'professional'-->
-    <div nz-row [nzGutter]="[20, 30]" class="exp-card-wrapper">
+    <div nz-row [nzGutter]="[200, 30]" class="exp-card-wrapper">
         <div nz-col [nzSpan]="8" class="exp-card-wrapper" *ngFor="let exp of expData">
             <nz-card nzHoverable class="exp-card">
                 <!--            <nz-card-meta [nzTitle]="exp.company" [nzDescription]="exp.role"></nz-card-meta>-->
@@ -14,20 +14,25 @@
                         <h4 nz-typography id="card-title">{{ exp.projectName }}</h4>
                     <div id="card-title-wrapper">
                         <span id="card-subheader">{{ exp.role }}</span>
-                        <span>{{ exp.startDate }} - {{ exp.endDate }}</span>
+                        <span *ngIf="exp.projectName != 'MSCI Scholarship'">{{ exp.startDate }} - {{ exp.endDate }}</span>
                     </div>
                 </div>
                 <nz-divider></nz-divider>
                 <!--            Iterate the nested array-->
-                <span id="skills-header">Acquired skills:</span><br/>
-                <nz-badge *ngFor="let skill of exp.acquiredSkills">
-                    <span nz-typography><code>{{ skill }}</code></span>
-                </nz-badge>
-                <div class="card-duty-list">
-                    <span id="duty-subheader">Duties:</span>
-                    <ul *ngFor="let duty of exp.duties">
-                        <li id="duty-list-item">{{ duty }}</li>
-                    </ul>
+                <div *ngIf="exp.projectName != 'MSCI Scholarship'">
+                    <span id="skills-header">Acquired skills:</span><br/>
+                    <nz-badge *ngFor="let skill of exp.acquiredSkills">
+                        <span nz-typography><code>{{ skill }}</code></span>
+                    </nz-badge>
+                    <div class="card-duty-list">
+                        <span id="duty-subheader">Duties:</span>
+                        <ul *ngFor="let duty of exp.duties">
+                            <li id="duty-list-item">{{ duty }}</li>
+                        </ul>
+                    </div>
+                </div>
+                <div *ngIf="exp.projectName == 'MSCI Scholarship'">
+
                 </div>
             </nz-card>
         </div>

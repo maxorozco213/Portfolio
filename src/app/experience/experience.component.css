@@ -1,4 +1,6 @@
 .exp-card {
+    height: fit-content;
+    min-height: 40em;
     border-radius: 10px;
 }
 
@@ -6,6 +8,13 @@
     max-width: 90%;
     display: flex;
     justify-content: center;
+}
+
+.exp-card-img {
+    max-width: 50%;
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .exp-card-header #boeing-logo {
@@ -21,6 +30,15 @@
     position: relative;
     right: 0;
     margin-left: 10%;
+    margin-top: -4%;
+}
+
+.exp-card-header #buelna-logo {
+    width: 25%;
+    position: relative;
+    right: 0;
+    margin-right: 10px;
+    margin-top: -5%;
 }
 
 .exp-card-header #card-subtitle-wrapper {

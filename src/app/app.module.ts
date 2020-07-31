@@ -23,6 +23,9 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ExtracurricularsComponent } from './extracurriculars/extracurriculars.component';
 import { EducationComponent } from './education/education.component';
 
+// Pipes
+import {GetRepoStatsPipe} from './projects/GetRepoStats.pipe';
+
 registerLocaleData(en);
 
 @NgModule({
@@ -31,7 +34,8 @@ registerLocaleData(en);
         ExperienceComponent,
         ProjectsComponent,
         ExtracurricularsComponent,
-        EducationComponent
+        EducationComponent,
+        GetRepoStatsPipe
     ],
     imports: [
         BrowserModule,

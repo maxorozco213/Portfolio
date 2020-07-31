@@ -6,22 +6,22 @@
 
 <div class="exp-content">
     <!--    Iterate the array with key 'professional'-->
-    <div nz-row [nzGutter]="[20, 30]" class="exp-card-wrapper">
+    <div nz-row class="exp-card-wrapper">
         <div nz-col [nzSpan]="8" class="exp-card-wrapper" *ngFor="let edu of education">
             <nz-card nzHoverable class="exp-card" (click)="sendToLink(edu.link)">
                 <!--            <nz-card-meta [nzTitle]="exp.company" [nzDescription]="exp.role"></nz-card-meta>-->
                 <div class="exp-card-header">
                     <div id="card-title-wrapper">
                         <h4 nz-typography id="card-title">{{ edu.schoolName }}</h4>
-                        <div *ngIf="edu.id == 1" style="width:50%;display: flex;justify-content: right">
+                        <div *ngIf="edu.id == 1" class="edu-card-img">
 <!--                            Path referenced like so for GitHub pages compatibility-->
                             <img src="./assets/images/csula-logo.png" alt="CSULA" class="school-logo" />
                         </div>
-                        <div *ngIf="edu.id == 2" style="width:50%;display: flex;justify-content: right">
+                        <div *ngIf="edu.id == 2" class="edu-card-img">
 <!--                            Path referenced like so for GitHub pages compatibility-->
                             <img src="./assets/images/sfsu-logo.png" alt="SFSU" class="school-logo" />
                         </div>
-                        <div *ngIf="edu.id == 3" style="width:50%;display: flex;justify-content: right">
+                        <div *ngIf="edu.id == 3" class="edu-card-img">
 <!--                            Path referenced like so for GitHub pages compatibility-->
                             <img src="./assets/images/gcc-logo.png" alt="GCC" class="school-logo" />
                         </div>
@@ -39,13 +39,13 @@
                 </span>
             </nz-card>
         </div>
-<!--        <nz-card class="edu-card">-->
-<!--            <div id="skill-wrapper">-->
-<!--                <span nz-typography *ngFor="let skill of skills">-->
-<!--                    <span>{{ skill }}</span>-->
-<!--                </span>-->
-<!--            </div>-->
-<!--        </nz-card>-->
+        <nz-card class="senior-project">
+            <div id="skill-wrapper">
+                <span nz-typography *ngFor="let skill of skills">
+                    <span>{{ skill }}</span>
+                </span>
+            </div>
+        </nz-card>
     </div>
 </div>
 

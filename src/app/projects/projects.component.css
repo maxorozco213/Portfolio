@@ -1,5 +1,7 @@
 .exp-card {
     border-radius: 10px;
+    min-height: 20em;
+    height: fit-content;
 }
 
 .exp-card-wrapper {
