@@ -6,6 +6,7 @@
             "startDate": "October 2018",
             "endDate": "Current",
             "isCurrent": true,
+            "link": "https://www.lacity.org/",
             "acquiredSkills": [
                 "Communication",
                 "Customer Service",
@@ -14,9 +15,11 @@
             ],
             "duties": [
                 "Lessened workstation errors and malfunctions with long term solutions",
-                "Expedited tasks with PowerShell scripting and Excel worksheets",
+                "Gather mass data with PowerShell scripting",
+                "Perform data analysis with Excel worksheets",
                 "Authored thorough and detailed procedural documents",
-                "Provide prompt and efficient service to resolve support tickets for 1000 users"
+                "Provide prompt and efficient service to resolve support tickets for 1000 users",
+                "Analyze problems and develop the best solution for user needs"
             ]
         },
         {
@@ -25,6 +28,7 @@
             "startDate": "August 2019",
             "endDate": "May 2020",
             "isCurrent": false,
+            "link": "http://www.boeing.com/",
             "acquiredSkills": [
                 "AdobeXD",
                 "ReactJS",
@@ -46,19 +50,20 @@
             ],
             "duties": [
                 "Designed and implemented a web application to gather and analyze satellite telemetry",
+                "Created mockups of the user interface",
+                "Implemented the UI",
                 "Containerized application modules using Docker",
                 "Authored descriptive and thorough documentation of the project",
                 "Deployed the application on AWS EC2 servers"
             ]
-        }
-    ],
-    "extra": [
+        },
         {
-            "projectName": "Buelna News Blog",
+            "company": "Buelna News Blog",
             "role": "Project Lead/Front-End Developer",
             "startDate": "February 2020",
             "endDate": "Current",
             "isCurrent": true,
+            "link": "https://buelnanews.com/",
             "acquiredSkills": [
                 "Project Management",
                 "AdobeXD",
@@ -86,13 +91,16 @@
                 "Created Docker containers for all modules",
                 "Deployed the application on AWS EC2 servers with HTTPS certificates"
             ]
-        },
+        }
+    ],
+    "extra": [
         {
             "projectName": "APO Online Mobile Application",
             "role": "Front-End Developer",
             "startDate": "May 2018",
             "endDate": "December 2018",
             "isCurrent": false,
+            "link": "https://www.apoonline.org/",
             "acquiredSkills": [
                 "React Native",
                 "User Interface",
@@ -116,6 +124,7 @@
             "startDate": "February 2014",
             "endDate": "May 2020",
             "isCurrent": false,
+            "link": "https://apo.org/",
             "acquiredSkills": [
                 "Communication",
                 "Customer Service",
@@ -133,7 +142,8 @@
         },
         {
             "projectName": "MSCI Scholarship",
-            "role": "Award Recipient"
+            "role": "Award Recipient (2019)",
+            "link": "https://www.msci.com/"
         }
     ]
 }
