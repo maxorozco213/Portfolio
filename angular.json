@@ -20,7 +20,7 @@
                         "tsConfig": "tsconfig.app.json",
                         "aot": true,
                         "assets": [
-                            "src/favicon.ico",
+                            "src/assets/tab_logo.png",
                             "src/assets",
                             {
                                 "glob": "**/*",
