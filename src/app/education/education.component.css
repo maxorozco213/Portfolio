@@ -27,15 +27,46 @@
     justify-content: flex-end;
 }
 
-.senior-project {
-    max-width: 90%;
-    border: 1px solid black;
+.skills-courses {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 88%;
+    background-color: inherit;
+    margin-top: 3%;
+}
+
+.skills-courses #skills {
+    width: 49%;
     background-color: inherit;
 }
 
-.edu-card #skill-wrapper {
+.skills-courses #courses {
+    width: 49%;
+    background-color: inherit;
 }
 
 .edu-card #skill-chip {
+    background-color: #595959;
+    border-radius: 20px;
+    width: fit-content;
+    wrap-option: nowrap;
+}
 
+.internship {
+    width: 88%;
+    margin-top: 3%;
+}
+
+.modules {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.module-desc {
+    min-height: 18em;
+    border-radius: 10px;
+    background-color: inherit;
+    border: none;
 }

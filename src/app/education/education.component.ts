@@ -9,6 +9,8 @@ import * as edu from '../../assets/education.json';
 export class EducationComponent implements OnInit {
     education: any = edu.schools;
     skills: any = edu.skills;
+    courses: any = edu.courses;
+    boeing: any = edu.internship;
 
   constructor() { }
 

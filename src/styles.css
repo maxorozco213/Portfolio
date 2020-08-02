@@ -13,8 +13,8 @@ body, html {
 
 .header #title-wrapper {
     width: 96%;
-    height: 58px;
-    background-color: #CBC379;
+    height: 53px;
+    background-color: rgba(203, 195, 121, 0.85);
     margin-bottom: 4%;
     margin-top: 3%;
     line-height: 100%;

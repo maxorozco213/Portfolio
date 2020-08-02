@@ -39,13 +39,39 @@
                 </span>
             </nz-card>
         </div>
-        <nz-card class="senior-project">
-            <div id="skill-wrapper">
-                <span nz-typography *ngFor="let skill of skills">
-                    <span>{{ skill }}</span>
-                </span>
+        <div class="skills-courses">
+            <div id="skills">
+                <h2 nz-typography>Skills</h2>
+                <div id="skill-chip">
+                    <span nz-typography *ngFor="let skill of skills">{{ skill }}</span>
+                </div>
             </div>
-        </nz-card>
+            <div id="courses">
+                <h2 nz-typography>Courses</h2>
+                <div>
+                    <span nz-typography *ngFor="let course of courses">{{ course }}</span>
+                </div>
+            </div>
+        </div>
+        <div class="internship">
+            <div style="margin-bottom:4%">
+                <h2 nz-typography>Internship</h2>
+                <h3 nz-typography>Operations Data Analysis & Management System <br/> sponsored by Boeing</h3>
+                <h4 nz-typography>Overview</h4>
+                <div>
+                    <h4 nz-typography>Abstract</h4>
+                    <div>{{ boeing.abstract }}</div>
+                </div>
+            </div>
+            <div nz-row [nzGutter]="[20,20]" class="modules">
+                <div nz-col [nzSpan]="7" style="max-width:80%;"><nz-card class="module-desc" nzTitle="Front End">{{ boeing.frontend }}</nz-card></div>
+                <div nz-col [nzSpan]="7" style="max-width:80%;"><nz-card class="module-desc" nzTitle="Back End">{{ boeing.backend }}</nz-card></div>
+                <div nz-col [nzSpan]="7" style="max-width:80%;"><nz-card class="module-desc" nzTitle="Machine Learning">{{ boeing.machine }}</nz-card></div>
+                <div nz-col [nzSpan]="7" style="max-width:80%;"><nz-card class="module-desc" nzTitle="Containerization" >{{ boeing.container }}</nz-card></div>
+                <div nz-col [nzSpan]="7" style="max-width:80%;"><nz-card class="module-desc" nzTitle="Amazon Web Services">{{ boeing.aws }}</nz-card></div>
+                <div nz-col [nzSpan]="7" style="max-width:80%;"><nz-card class="module-desc" nzTitle="Database">{{ boeing.database }}</nz-card></div>
+            </div>
+        </div>
     </div>
 </div>
 

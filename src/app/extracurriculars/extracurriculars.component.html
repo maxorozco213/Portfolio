@@ -22,7 +22,7 @@
                 <div *ngIf="exp.projectName != 'MSCI Scholarship'">
                     <span id="skills-header">Acquired skills:</span><br/>
                     <nz-badge *ngFor="let skill of exp.acquiredSkills">
-                        <span nz-typography><code>{{ skill }}</code></span>
+                        <div id="skill-chip"><span nz-typography>{{ skill }}</span></div>
                     </nz-badge>
                     <div class="card-duty-list">
                         <span id="duty-subheader">Duties:</span>
@@ -31,10 +31,10 @@
                         </ul>
                     </div>
                 </div>
-                <div *ngIf="exp.projectName == 'MSCI Scholarship'">
-
-                </div>
             </nz-card>
+            <div *ngIf="exp.projectName == 'MSCI Scholarship'">
+            </div>
         </div>
     </div>
 </div>
+
