@@ -17,4 +17,9 @@ export class ExtracurricularsComponent implements OnInit {
             console.log(item.acquiredSkills);
         });
     }
+
+    sendToLink(link): void {
+        const win = window.open(link);
+        win.focus();
+    }
 }
