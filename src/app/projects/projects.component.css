@@ -25,3 +25,19 @@
     justify-content: space-between;
     margin-right: 10px;
 }
+
+.github-button {
+    background-color: #CBC379;
+}
+
+.github-button:hover {
+    color: white;
+    border: white;
+}
+
+#github-button-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

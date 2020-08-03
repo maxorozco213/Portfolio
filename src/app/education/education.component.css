@@ -1,7 +1,8 @@
 .exp-card {
-    height: fit-content;
-    min-height: 20em;
+    height: 12em;
+    width: 30em;
     border-radius: 10px;
+    margin: 20px;
 }
 
 .exp-card-wrapper {
@@ -10,13 +11,20 @@
     justify-content: center;
 }
 
+.exp-card-wrapper #edu-subtitle-wrapper {
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .school-logo {
-    width: 36%;
+    width: 40%;
     margin-bottom: 5px;
 }
 
 .edu-card {
-    width: 90%;
+    max-width: 90%;
     margin-top: -5%;
     border-radius: 10px;
 }
@@ -30,10 +38,10 @@
 .skills-courses {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 88%;
+    justify-content: space-evenly;
+    width: 90%;
     background-color: inherit;
-    margin-top: 3%;
+    margin-top: 4%;
 }
 
 .skills-courses #skills {
@@ -46,11 +54,13 @@
     background-color: inherit;
 }
 
-.edu-card #skill-chip {
-    background-color: #595959;
+.skill-chip {
+    background-color: rgba(215, 215, 215, 0.74);
+    padding: 8px;
+    margin: 5px;
     border-radius: 20px;
     width: fit-content;
-    wrap-option: nowrap;
+    display: inline-block;
 }
 
 .internship {
