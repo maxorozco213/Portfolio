@@ -142,8 +142,14 @@
         },
         {
             "projectName": "MSCI Scholarship",
-            "role": "Award Recipient (2019)",
-            "link": "https://www.msci.com/"
+            "role": "Award Recipient",
+            "link": "https://www.msci.com/",
+            "prompt": "Write about a moment that you felt the most inspired. Why were you inspired and what became of the inspiration?",
+            "details": [
+                "Awarded for academic achievement",
+                "Participation in volunteer work",
+                "Participation in campus organizations"
+            ]
         }
     ]
 }

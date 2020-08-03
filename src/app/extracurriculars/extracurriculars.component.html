@@ -8,10 +8,10 @@
     <!--    Iterate the array with key 'professional'-->
     <div nz-row [nzGutter]="[200, 30]" class="exp-card-wrapper">
         <div nz-col [nzSpan]="8" class="exp-card-wrapper" *ngFor="let exp of expData">
-            <nz-card nzHoverable class="exp-card">
+            <nz-card *ngIf="exp.projectName != 'MSCI Scholarship'" nzHoverable class="exp-card" (click)="sendToLink(exp.link)">
                 <!--            <nz-card-meta [nzTitle]="exp.company" [nzDescription]="exp.role"></nz-card-meta>-->
                 <div class="exp-card-header">
-                        <h4 nz-typography id="card-title">{{ exp.projectName }}</h4>
+                    <h4 nz-typography id="card-title">{{ exp.projectName }}</h4>
                     <div id="card-title-wrapper">
                         <span id="card-subheader">{{ exp.role }}</span>
                         <span *ngIf="exp.projectName != 'MSCI Scholarship'">{{ exp.startDate }} - {{ exp.endDate }}</span>
@@ -19,10 +19,10 @@
                 </div>
                 <nz-divider></nz-divider>
                 <!--            Iterate the nested array-->
-                <div *ngIf="exp.projectName != 'MSCI Scholarship'">
+                <div>
                     <span id="skills-header">Acquired skills:</span><br/>
                     <nz-badge *ngFor="let skill of exp.acquiredSkills">
-                        <span nz-typography><code>{{ skill }}</code></span>
+                        <div id="skill-chip"><span nz-typography>{{ skill }}</span></div>
                     </nz-badge>
                     <div class="card-duty-list">
                         <span id="duty-subheader">Duties:</span>
@@ -31,10 +31,24 @@
                         </ul>
                     </div>
                 </div>
-                <div *ngIf="exp.projectName == 'MSCI Scholarship'">
-
+            </nz-card>
+            <nz-card nzHoverable *ngIf="exp.projectName == 'MSCI Scholarship'" class="exp-card" (click)="sendToLink(exp.link)">
+                <div class="exp-card-header">
+                    <h4 nz-typography style="font-weight:bold">{{ exp.projectName }}</h4>
+                    <div style="display:flex;justify-content:space-between">
+                        <span style="font-style:italic;font-size:medium">{{ exp.role }}</span>
+                        <span style="font-size:medium">September 2019</span>
+                    </div>
+                    <nz-divider></nz-divider>
+                </div>
+                <div>
+                    <span style="font-weight:bold;font-size:medium">Details:</span>
+                    <ul style="list-style-type: circle" *ngFor="let detail of exp.details">
+                        <li>{{ detail }}</li>
+                    </ul>
                 </div>
             </nz-card>
         </div>
     </div>
 </div>
+

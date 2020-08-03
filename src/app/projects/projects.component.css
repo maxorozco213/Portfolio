@@ -1,6 +1,6 @@
 .exp-card {
     border-radius: 10px;
-    min-height: 20em;
+    min-height: 40em;
     height: fit-content;
 }
 
@@ -24,4 +24,20 @@
     display: flex;
     justify-content: space-between;
     margin-right: 10px;
+}
+
+.github-button {
+    background-color: #CBC379;
+}
+
+.github-button:hover {
+    color: white;
+    border: white;
+}
+
+#github-button-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }

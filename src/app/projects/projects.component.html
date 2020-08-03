@@ -7,7 +7,7 @@
 <div class="exp-content">
     <!--    Iterate the array with key 'professional'-->
     <div nz-row [nzGutter]="[20, 30]" class="exp-card-wrapper">
-        <div nz-col [nzSpan]="5" class="exp-card-wrapper" *ngFor="let repo of repoList">
+        <div nz-col [nzSpan]="7" class="exp-card-wrapper" *ngFor="let repo of repoList">
             <nz-card nzHoverable class="exp-card" (click)="sendToLink(repo.html_url)">
 <!--                Card header-->
                 <div class="exp-card-header">
@@ -46,4 +46,10 @@
             </nz-card>
         </div>
     </div>
+</div>
+
+<div id="github-button-wrapper">
+    <button nz-button nzSize="large" class="github-button" nzShape="round" (click)="sendToLink('https://github.com/maxorozco213')">
+        See my GitHub profile
+    </button>
 </div>

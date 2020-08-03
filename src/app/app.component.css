@@ -1,5 +1,10 @@
 body, html {
     height: 100%;
+    font-size: 2.5em;
+}
+
+span {
+    font-size: 2.5em;
 }
 
 .spacer {
@@ -100,6 +105,25 @@ body, html {
     flex-direction: row;
     justify-content: center;
     width: 100%
+}
+
+.socials #contact-info {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.button-link {
+    width: 7em;
+    background-color: #CBC379;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+
+.button-link:hover {
+    color: white;
+    border: white;
 }
 
 .socials #contact-info {

@@ -13,8 +13,8 @@ body, html {
 
 .header #title-wrapper {
     width: 96%;
-    height: 58px;
-    background-color: #CBC379;
+    height: 53px;
+    background-color: rgba(203, 195, 121, 0.85);
     margin-bottom: 4%;
     margin-top: 3%;
     line-height: 100%;
@@ -35,13 +35,13 @@ body, html {
     justify-content: center;
     width: 100%;
     min-height: 30em;
-    padding-bottom: 10%;
+    padding-bottom: 8%;
 }
 
 .exp-card {
     width: 35em;
     height: fit-content;
-    min-height: 40em;
+    min-height: 38em;
 }
 
 .exp-card #skills-header {
@@ -92,6 +92,5 @@ body, html {
 }
 
 .card-duty-list #duty-list-item {
-    padding-left: 0;
     list-style-type: circle;
 }
