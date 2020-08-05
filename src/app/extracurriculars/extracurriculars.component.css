@@ -7,4 +7,5 @@
 .exp-card {
     border-radius: 10px;
     width: 35em;
+    min-height: 40em;
 }

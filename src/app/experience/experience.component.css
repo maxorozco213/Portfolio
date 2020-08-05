@@ -12,6 +12,7 @@
 
 .exp-card-img {
     max-width: 50%;
+    height: 10%;
     width: auto;
     display: flex;
     justify-content: flex-end;
@@ -26,19 +27,20 @@
 }
 
 .exp-card-header #lacity-logo {
-    width: 25%;
-    position: relative;
+    width: 12%;
+    position: absolute;
     right: 0;
     margin-left: 10%;
-    margin-top: -4%;
+    margin-top: -2%;
+    margin-right: 2%;
 }
 
 .exp-card-header #buelna-logo {
-    width: 25%;
-    position: relative;
+    width: 12%;
+    position: absolute;
     right: 0;
-    margin-right: 10px;
-    margin-top: -5%;
+    margin-top: -2%;
+    margin-right: 2%;
 }
 
 .exp-card-header #card-subtitle-wrapper {

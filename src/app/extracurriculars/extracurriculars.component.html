@@ -6,8 +6,8 @@
 
 <div class="exp-content">
     <!--    Iterate the array with key 'professional'-->
-    <div nz-row [nzGutter]="[200, 30]" class="exp-card-wrapper">
-        <div nz-col [nzSpan]="8" class="exp-card-wrapper" *ngFor="let exp of expData">
+    <div nz-row [nzGutter]="[20, 30]" class="exp-card-wrapper">
+        <div nz-col [nzSpan]="7" class="exp-card-wrapper" *ngFor="let exp of expData">
             <nz-card *ngIf="exp.projectName != 'MSCI Scholarship'" nzHoverable class="exp-card" (click)="sendToLink(exp.link)">
                 <!--            <nz-card-meta [nzTitle]="exp.company" [nzDescription]="exp.role"></nz-card-meta>-->
                 <div class="exp-card-header">

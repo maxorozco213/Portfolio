@@ -27,10 +27,11 @@
 }
 
 .github-button {
-    background-color: #CBC379;
+    border-color: #CBC379
 }
 
 .github-button:hover {
+    background-color: #CBC379;
     color: white;
     border: white;
 }

@@ -32,7 +32,7 @@
             "schoolName": "California State University, Los Angeles",
             "link": "http://www.calstatela.edu/",
             "attendStart": "August 2017",
-            "attendEnd": "May 2020",
+            "attendEnd": "May 2020 (Graduated)",
             "major": "B.S. in Computer Science",
             "extracurriculars": [
                 {
@@ -97,7 +97,7 @@
         "Cryptography and Information Security",
         "Android Development",
         "Discrete Math",
-        "Electrical Engineering",
+        "Computer Organization (Electrical Engineering)",
         "Physics",
         "Software Engineering",
         "Data Structures",
